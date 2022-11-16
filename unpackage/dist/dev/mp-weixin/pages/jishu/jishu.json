@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-section": "/components/uni-section/uni-section",
+    "footer-msg": "/components/footerMsg/footerMsg"
+  }
+}

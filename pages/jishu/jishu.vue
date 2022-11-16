@@ -1,0 +1,148 @@
+<template>
+  <view class="content">
+
+    <view class="title">
+      <image src="../../static/jishu/jishu1.png"></image>六种污水处理技术
+    </view>
+    <view class="contenDetail">
+
+
+      <uni-section title="１、物理法" type="line">
+        <p>物理法污水处理就是利用物理作用，分离污水中主要呈悬浮状态的污染物，在处理过程中不改变水的化学性质。</p>
+        <!-- <image :src="imgsrc[0]"></image> -->
+        <!-- <image src=""></image> -->
+        <image src="../../static/jishu/jishu2.png" mode=""></image>
+        <p>
+          ⑴沉淀（重力分离）污水流入池内由于流速降低，污水中的固体物质在中立的作用下进行沉淀，而使固体物质与水分离，这种工艺分离效果好，简单易行，应用广泛，如污水处理厂的沉砂池和沉淀池。
+        </p>
+        <p>⑵筛选（截流）利用筛滤介质截流污水中的悬浮物。属于砂滤处理的设备有格栅、微滤机、砂滤池、真空滤机、压滤机（后两种主要用于污泥脱水）等。</p>
+        <image src="../../static/jishu/jishu3.png" mode=""></image>
+        <p>⑶离心与旋流分离使含有悬浮固体或乳化油的污水，由于悬浮固体和废水的质量不同，受到的离心力也不同，质量大的悬浮固体被抛甩到污水外侧从而使污水得以净化。</p>
+      </uni-section>
+
+
+      <uni-section title="2、化学法" type="line">
+        <!-- <image :src="imgsrc[0]"></image> -->
+        <!-- <image src=""></image> -->
+        <p>
+          污水的化学处理方法就是向污水投加化学物质，利用化学反应来分离回收污水中的污染物，或是其转化为无害物质。属于化学处理法的有以下几种。
+        </p>
+        <image src="../../static/jishu/jishu5.png" mode=""></image>
+        <p>⑴混凝法混
+          凝法是向污水中投加一定量的药剂，经过脱稳、架桥等反应过程，使污水中的污染物凝聚并沉降。水中呈胶体状态的污染物质通常带有负电荷，胶体颗粒之间互相排斥形成稳定的混合液，若水中带有相反电荷的电解质（混凝剂）可使污水中的胶体颗粒改变为呈电中性，并在分子引力作用下，凝聚成大颗粒下沉。
+        </p>
+        <image src="../../static/jishu/jishu4.png" mode=""></image>
+        <p>⑵中和法用化学方法消除污水中过量的酸和碱，使其pH值达到中性左右的过程称为中和法。处理含酸污水以碱作为中和剂，处理含碱污水以酸作为中和剂，也可以吹入含
+
+          CO2的烟道气进行中和。酸和碱均指无机酸和无机碱，一般依照“以废制废”的原则，亦可采用药剂中和处理，可以连续进行，也可间歇进行。
+        </p>
+      </uni-section>
+
+      <uni-section title="3、生物法" type="line">
+        <!-- <image :src="imgsrc[0]"></image> -->
+        <!-- <image src=""></image> -->
+        <p>
+          污水的生物膜法就是采取一定的人工措施，创造有利于微生物生长、繁殖的环境，使微生物大量增殖，以提高微生物氧化、分解有机污染物被降解并转化为无害物质，使污水得以净化。生物处理法可分为好氧处理法和厌氧处理法两类。前者处理效率高，效果好，使用广泛，是生物处理的主要方法。属于生物处理法的工艺有以下几种。
+        </p>
+        <image src="../../static/jishu/jishu6.png" mode=""></image>
+        <p>⑴活性污泥法是当前应用最广泛的一种生物处理技术。将空气连续鼓入含有大量溶解有机污染物的污水中，经过一段时间，水中既形成繁殖有大量好氧型微生物的絮凝体—活性污
+          泥，活性污泥能够吸附水中的有机物，生活污水在活性污泥上的微生物以有机物为食料，获得能量，并不断省长增殖，有机物被分解、去除，使污水得以净化。
+        </p>
+        <image src="../../static/jishu/jishu7.png" mode=""></image>
+        <p>
+          ⑵普通活性污泥法这种方法已被广泛使用，是许多污水处理厂的常用工艺。传统活性污泥法是将污水和回流污泥从曝气池首段引入，呈推流式至曝气池末端流出，此法适用于处理要求高、水质较稳定的污水，但对负荷的变动适应性较弱，后来在此基础上产生了一些改良形式。
+        </p>
+      </uni-section>
+      <uni-section title="4、生物膜法" type="line">
+        <!-- <image :src="imgsrc[0]"></image> -->
+        <!-- <image src=""></image> -->
+
+        <p>使污水连续流经固体填料，在填料上就能够形成污泥垢状的生物膜，生物膜上繁殖大量的微生物，吸附和降解水中的有机污染物，能起到与活性污泥同样的净化污水作
+          用。从填料上脱落下来死亡的生物膜随污水流入沉淀池，经沉淀池澄清净化。生物膜有多种处理构筑物，如生物滤料、生物转盘、生物接触氧化和生物流化床等。
+        </p>
+        <image src="../../static/jishu/jishu8.png" mode=""></image>
+        <p>生物滤池生
+          物滤池是以土壤自净原理为依据发展起来的，滤池内有固定填料，污水流过时与滤料相接触，微生物在滤料表面形成生物膜。净化污水装置由提供微生物生长息栖的滤床、布水系统以及排水系统组成。生物滤池操作简单，费用低，适用于中小城镇和边远地区。生物滤池分为普通生物滤池、高负荷生物滤池和塔式生物滤池以及曝气生物滤池等。
+        </p>
+      </uni-section>
+      <image src="../../static/jishu/jishu9.png" mode=""></image>
+      <uni-section title="5、自然生物处理法" type="line">
+        <!-- <image :src="imgsrc[0]"></image> -->
+        <!-- <image src=""></image> -->
+        <image src="../../static/jishu/jishu10.png" mode=""></image>
+        <p>利用自然条件下生长繁殖的微生物来处理污水，形成水体-微生物-植物组成的生态系统，对污染物进行一系列的物理-化学和生物净化，可对污水中的营养物质充分
+          利用，有利于绿色植物生长，实现污水的资源化、无害化和稳定化。该法工艺简单，建设与运行费用都较低，效率高，是一种符合生态原理的污水处理方式，但容易
+          受自然条件影响，占地较大。主要有水生植物塘、水生动物塘、土地处理系统以及上述工艺组合系统。
+        </p>
+      </uni-section>
+      <uni-section title="6、厌氧生物处理法" type="line">
+        <!-- <image :src="imgsrc[0]"></image> -->
+        <!-- <image src=""></image> -->
+        <p>
+          利用兼性厌氧菌在无氧条件下降解有机污染物，主要用于处理高浓度难降解的有机工业废水及有机污泥。主要构筑物是消化池，近年来在这个领域有很大的发展，开创了一系列的新型高效厌氧处理构筑物，如厌氧滤池、厌氧转盘、上流式厌氧污泥床、厌氧流化床等高效反应装置，该法能耗低且能产生能量，污泥量少。
+        </p>
+        <image src="../../static/jishu/jishu11.png" mode=""></image>
+      </uni-section>
+      <view class="Textsp">*图片来源于网络如有侵权请私信删除</view>
+    </view>
+
+    <footerMsg />
+  </view>
+</template>
+
+<script>
+  export default {
+    data() {
+      return {
+
+      }
+    },
+    methods: {
+
+    }
+  }
+</script>
+
+<style lang="scss">
+  page {
+    background-color: #f6f6f6;
+    margin: 0rpx 20rpx;
+  }
+
+  .content {
+    width: 94%;
+    background-color: #ffffff;
+  }
+
+  .title {
+    font-size: 50rpx;
+    vertical-align: bottom;
+
+    image {
+      font-size: 0;
+      height: 55rpx;
+      vertical-align: bottom;
+      width: 55rpx;
+    }
+
+  }
+
+  .contenDetail {
+    width: 100%;
+
+    p {
+      text-indent: 2em;
+      padding: 0px 20rpx;
+    }
+
+    image {
+      width: 100%;
+      border-top: 15px solid #ffffff;
+    }
+  }
+
+  .Textsp {
+    font-size: 20rpx;
+    color: #ccc;
+  }
+</style>

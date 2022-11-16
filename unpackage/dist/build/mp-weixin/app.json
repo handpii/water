@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/jishu/jishu",
+    "pages/fangfa/fangfa",
+    "pages/us/us",
+    "pages/index-detail/index-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#0c9eef",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "污水介绍",
+        "iconPath": "static/tab/index.png",
+        "selectedIconPath": "static/tab/indexa.png"
+      },
+      {
+        "pagePath": "pages/jishu/jishu",
+        "text": "处理技术",
+        "iconPath": "static/tab/jishu.png",
+        "selectedIconPath": "static/tab/jishua.png"
+      },
+      {
+        "pagePath": "pages/fangfa/fangfa",
+        "text": "处理方法",
+        "iconPath": "static/tab/fangfa.png",
+        "selectedIconPath": "static/tab/fangfaa.png"
+      },
+      {
+        "pagePath": "pages/us/us",
+        "text": "关于我们",
+        "iconPath": "static/tab/us.png",
+        "selectedIconPath": "static/tab/usa.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "定位"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

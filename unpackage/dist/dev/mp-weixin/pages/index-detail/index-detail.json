@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "footer-msg": "/components/footerMsg/footerMsg"
+  }
+}
